@@ -1,0 +1,26 @@
+# Episode Title: Elena Verna on Product-Led Growth (PLG), B2B Funnels, and Viral Growth Loops
+# URL: https://www.lennytsnewsletter.com/p/elena-verna-plg-growth
+# Ingested: 2026-09-04
+
+Lenny: Welcome to Lenny's Podcast! Today I'm joined by Elena Verna, growth advisor and former Head of Growth at Miro, Amplitude, and SurveyMonkey. Elena, welcome to the show!
+
+Elena Verna: Thanks for having me, Lenny. Super excited to talk all things PLG and growth loops.
+
+Lenny: Let's start with the fundamental question: what is Product-Led Growth (PLG), and why do so many traditional sales-led companies fail when trying to transition into PLG?
+
+Elena Verna: PLG is not a sales strategy; it is a company-wide distribution strategy where the product itself drives acquisition, retention, and expansion. Traditional B2B companies fail at PLG because they treat it as just adding a free trial or freemium plan to their website. But PLG requires transforming your entire product experience to deliver end-user value before monetizing. In sales-led models, buyers buy based on promises in a demo. In product-led models, users adopt based on real immediate value in the product.
+
+Lenny: That's a huge distinction. What are the key growth loops that power modern SaaS companies like Miro or Figma?
+
+Elena Verna: There are three primary loops every growth team should understand:
+1. Product Viral Loops: Where active usage of the product naturally invites non-users into the workflow. Think of sharing a Miro board, sending a Figma link, or inviting teammates to a Slack channel.
+2. Content/SEO Loops: Users generate content or public artifacts inside the product that get indexed by search engines, driving new user discovery.
+3. Paid Acquisition Loops: Revenue generated from self-serve users is reinvested into performance marketing to acquire more self-serve signups.
+
+Lenny: How should product managers think about activation metric definition?
+
+Elena Verna: Activation is the single most critical leverage point in PLG. Your activation metric must measure when a new user experiences the core value proposition for the first time—what we call the 'Habit Moment'. For instance, at Miro, activation wasn't just creating a board; it was inviting at least 2 collaborators and spending more than 10 minutes collaborating on a board within the first 7 days. If a user doesn't activate within 7 days, your chances of retaining them drop by over 80%.
+
+Lenny: What advice do you give B2B founders about self-serve pricing and paywalls?
+
+Elena Verna: Don't put paywalls in front of activation. Put paywalls in front of scale, governance, and advanced collaboration features. Let individual contributors fall in love with the tool for free. Monetize when teams require team-wide permissions, SAML SSO, advanced security, or admin controls.

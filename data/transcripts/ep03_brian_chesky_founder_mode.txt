@@ -1,0 +1,24 @@
+# Episode Title: Brian Chesky on Founder Mode, Product Design, and Rethinking Management
+# URL: https://www.lennytsnewsletter.com/p/brian-chesky-founder-mode
+# Ingested: 2026-09-04
+
+Lenny: Today on Lenny's Podcast, we have Brian Chesky, co-founder and CEO of Airbnb. Brian, welcome!
+
+Brian Chesky: Hey Lenny, glad to be here.
+
+Lenny: Brian, your talk at Y Combinator about 'Founder Mode' went viral and sparked a massive debate across Silicon Valley. What does Founder Mode actually mean in practice?
+
+Brian Chesky: Founder Mode is the alternative to traditional 'Manager Mode'. For decades, business schools taught founders that as a company grows, you should hire executive leaders, delegate everything to them, and just oversee them through high-level review meetings. But in practice, when founders step away from the details, companies lose their soul, product quality degrades, and political bureaucracy takes over.
+Founder Mode means leaders stay deeply involved in the details of product design, customer experience, and cross-functional execution. It’s not micromanagement—it’s hands-on leadership where executive leaders run the company alongside the founder in a unified roadmap.
+
+Lenny: How did you restructure Airbnb’s product and marketing organization to implement this philosophy?
+
+Brian Chesky: We abolished the traditional decentralized product management structure where 50 different product managers were running 50 independent A/B tests. Instead, we consolidated the whole company onto ONE centralized annual product roadmap. We combined Product Management and Product Marketing into a single function called Product Marketing Managers (PMMs). Now, the people defining what we build are also responsible for how we position and launch it to the world.
+
+Lenny: What is your approach to design and craft at Airbnb?
+
+Brian Chesky: Design is not just how something looks; it is how it works end-to-end. At Airbnb, we don't build software through spreadsheets or Jira tickets alone. We design the entire user journey through storyboards and interactive prototypes. Every single feature must serve a clear story in the guest or host journey. If a detail feels unpolished to a customer, it is a defect, period.
+
+Lenny: What advice do you have for tech founders trying to scale without losing momentum?
+
+Brian Chesky: Don't hire managers who just manage people; hire leaders who can do the work and craft the product themselves. Keep your team small, keep your roadmap focused, and never delegate the core product vision.

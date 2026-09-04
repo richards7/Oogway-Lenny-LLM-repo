@@ -1,0 +1,29 @@
+# Episode Title: Gokul Rajaram on SPADE Decision Framework, Product Strategy, and Execution
+# URL: https://www.lennytsnewsletter.com/p/gokul-rajaram-spade-framework
+# Ingested: 2026-09-04
+
+Lenny: Welcome back! My guest today is Gokul Rajaram, board member at Coinbase and Pinterest, former executive at DoorDash, Square, and Google. Gokul, welcome!
+
+Gokul Rajaram: Great to be here, Lenny.
+
+Lenny: Gokul, you created the SPADE framework for high-stakes decision making at Square and DoorDash. What is SPADE, and how does it prevent decision paralysis in growing organizations?
+
+Gokul Rajaram: SPADE is an acronym for Setting, People, Alternatives, Decide, and Explain. Most organizational decisions fail because roles are unclear, options aren't explored, or decisions aren't communicated. Here is how SPADE works:
+
+1. Setting: Define the WHAT, WHY, and WHEN. What is the precise decision being made? Why is it important? What is the deadline?
+2. People: Clarify roles upfront:
+   - Responsible (1 person): The Decision Maker who calls the shot.
+   - Approver (1 person): Usually CEO or VP who vetoes only if strategic boundaries are breached.
+   - Consulted: Cross-functional leads who provide inputs.
+   - Informed: Stakeholders updated after the decision.
+3. Alternatives: Brainstorm at least 3 viable, creative options. Evaluate pros, cons, and feasibility for each.
+4. Decide: The Responsible person gathers all feedback, reviews alternatives, and makes the call. Voting is banned.
+5. Explain: The Responsible person writes a short, 1-page memo explaining why the chosen alternative was selected and why others were rejected, sending it out immediately to all stakeholders.
+
+Lenny: Why is having a single decision maker so critical?
+
+Gokul Rajaram: Consensus decision-making leads to watered-down compromise products that nobody loves. In SPADE, consensus is explicitly avoided. One person holds the accountability and makes the final choice after hearing all perspectives.
+
+Lenny: What advice do you give early-stage startups on metric selection?
+
+Gokul Rajaram: Pick ONE North Star Metric that measures real customer value, not vanity signups. For DoorDash, it was weekly active orders delivered within 35 minutes. Align the entire company around moving that single metric.

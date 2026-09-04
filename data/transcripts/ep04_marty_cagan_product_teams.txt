@@ -1,0 +1,24 @@
+# Episode Title: Marty Cagan on Empowered Product Teams vs. Feature Factories
+# URL: https://www.lennytsnewsletter.com/p/marty-cagan-empowered-teams
+# Ingested: 2026-09-04
+
+Lenny: Welcome back to Lenny's Podcast. Today we have Marty Cagan, founder of Silicon Valley Product Group and author of INSPIRED, EMPOWERED, and TRANSFORMED. Marty, welcome!
+
+Marty Cagan: Thanks Lenny! Excited to discuss empowered product teams.
+
+Lenny: Marty, what is the core difference between an 'Empowered Product Team' and a 'Feature Factory'?
+
+Marty Cagan: In a feature factory, leadership hands down a roadmap of features and projects for the tech team to build. The PM is essentially a project manager or backlog administrator, engineers are treated like code monkeys, and designers make wireframes look pretty. Success is measured by output: 'Did you ship feature X on date Y?'
+In an empowered product team, leadership gives the team customer problems to solve or business outcomes to achieve (e.g., 'reduce churn by 15% in Q3'). The team is empowered to discover the necessary solution through rapid prototyping and user testing. Success is measured by outcome, not output.
+
+Lenny: What are the four core risks that every product discovery process must address?
+
+Marty Cagan: Product discovery exists to address four fundamental risks BEFORE writing production code:
+1. Value Risk: Will the user choose to buy or use this product?
+2. Usability Risk: Can the user figure out how to use this product?
+3. Feasibility Risk: Can our engineers build this within available technology, time, and budget?
+4. Business Viability Risk: Does this solution work for our business (financial, legal, compliance, sales, and ethics)?
+
+Lenny: How should product managers collaborate with engineering lead and product designers during discovery?
+
+Marty Cagan: The PM, Product Designer, and Tech Lead form the core Product Triad. They must collaborate daily on discovery. Engineers should not just be given Jira tickets; they must participate in user interviews and prototype tests. Engineers are often your best source of innovation because they know what is newly possible with technology.

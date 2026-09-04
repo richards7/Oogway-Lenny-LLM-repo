@@ -1,0 +1,30 @@
+# Episode Title: Shreyas Doshi on Product Sense, Pre-Mortems, LNO Framework, and High-Agency PMing
+# URL: https://www.lennytsnewsletter.com/p/shreyas-doshi-product-sense
+# Ingested: 2026-09-04
+
+Lenny: Welcome back to Lenny's Podcast. Today my guest is Shreyas Doshi, former product leader at Stripe, Twitter, Google, and Yahoo. Shreyas, welcome!
+
+Shreyas Doshi: Thank you Lenny, great to be here.
+
+Lenny: Shreyas, you're famous for defining 'Product Sense'. How do you define product sense, and can it be learned or cultivated?
+
+Shreyas Doshi: Product sense is empathy for user problems combined with domain intuition, allowing a product manager to make sound decisions under conditions of high ambiguity without complete data. Many people think product sense is innate, but it is actually a trainable discipline. You cultivate product sense by:
+1. Deeply observing real user behaviors and pain points rather than relying solely on user feedback surveys.
+2. Analyzing successful products in non-competing domains to understand why their UX choices work.
+3. Conducting rigorous post-mortems and pre-mortems on your own product decisions to calibrate your intuition over time.
+
+Lenny: Tell us about your famous LNO Framework for time management and prioritization.
+
+Shreyas Doshi: Most PMs burn out because they treat every task with equal perfectionism. The LNO Framework categorizes tasks into three buckets:
+- L Tasks (Leverage Tasks): High-impact work where 10x effort yields 100x results (e.g., product strategy, core architecture decisions, key hire interviews). You must do these with extreme excellence (100% effort).
+- N Tasks (Neutral Tasks): Necessary operational work that must be done well enough, but extra perfection adds no value (e.g., weekly status reporting, sprint grooming). Aim for 80% quality.
+- O Tasks (Overhead Tasks): Administrative tasks that just need to get done (e.g., expense reports, basic email replies). Spend minimum viable effort (50% quality) or delegate/automate.
+
+Lenny: What is the Pre-Mortem technique, and how should product teams run one before launching a major initiative?
+
+Shreyas Doshi: A pre-mortem takes place BEFORE a project starts. Gather your team and say: 'Imagine we are 12 months in the future, and this launch was a complete, catastrophic failure. Write down 5 specific reasons why we failed.'
+By giving team members permission to voice doubts upfront without being seen as unsupportive, you uncover hidden risks, flawed assumptions, and critical dependencies that traditional risk logs completely miss.
+
+Lenny: How can PMs build high agency in their careers?
+
+Shreyas Doshi: High agency is the determination to find a way to make things happen, regardless of constraints, bureaucracy, or lack of resources. Low-agency PMs make excuses about team capacity or lack of clear directions; high-agency PMs reframe the problem, find creative workarounds, and align cross-functional peers around a shared vision.

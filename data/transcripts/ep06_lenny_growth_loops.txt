@@ -1,0 +1,30 @@
+# Episode Title: Lenny Rachitsky on Product Growth Fundamentals, Retention, and Acquisition Loops
+# URL: https://www.lennytsnewsletter.com/p/lenny-growth-loops-masterclass
+# Ingested: 2026-09-04
+
+Lenny: Welcome to a special solo episode of Lenny's Podcast! Today I'm sharing key insights synthesised from over 150 interviews with top product leaders on growth loops, retention, and scaling.
+
+Let's dive into the core engine of sustainable growth: Retention.
+
+1. Retention is King: If your product has poor retention, no amount of marketing or acquisition spending will save it. You are pouring water into a leaky bucket.
+- Good retention for B2B SaaS is 30-40% flattened cohort retention after 12 months.
+- Good retention for Consumer Social / Apps is 20-30% flattened cohort retention after 12 months.
+
+2. Defining your Habit Loop:
+Every sticky product builds a habit loop consisting of a Trigger, Action, and Reward.
+- Trigger: Internal feeling (boredom, anxiety, desire to collaborate) or external notification.
+- Action: The simplest friction-free step to use the product (e.g. open app, click a link, type a search).
+- Reward: Variable immediate value (insightful dashboard, team feedback, resolved task).
+
+3. The Four Core Growth Engines:
+- Viral/Word of Mouth Growth: Users bring other users naturally (Slack, Zoom, Calendly).
+- SEO/Content Engine: Organic search traffic driven by user-generated content or programmatic landing pages (Tripadvisor, Quora, Zapier).
+- Paid Performance Engine: Predictable paid acquisition with payback period < 12 months (Duolingo, HelloFresh).
+- Sales Engine: Outbound SDR/AE motion targeting mid-market and enterprise buyers (Snowflake, Salesforce).
+
+4. Ship 30/30 Content Methodology for Product Leaders:
+To communicate strategy effectively, product leaders must write clearly and skimmably:
+- Hook the reader in the first 2 sentences.
+- Provide a single, crystal-clear main takeaway.
+- Use bolding, short bullet points, and clear subheadings so busy executives can skim in 30 seconds.
+- Support all strategic claims with concrete data or real user stories.
