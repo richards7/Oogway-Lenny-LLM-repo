@@ -380,7 +380,9 @@
             |-- AssistantAvatar.jsx
             |-- ChatWindow.jsx
             |-- Header.jsx
+            |-- MessageActions.jsx
             |-- MessageInput.jsx
+            |-- ProviderMenu.jsx
             |-- Sidebar.jsx
             |-- ThinkingIndicator.jsx
         |-- index.css

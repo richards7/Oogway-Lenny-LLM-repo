@@ -29,5 +29,5 @@ Thumbs.db
 # Imported podcast transcripts (~26MB, third-party content from
 # ChatPRD/lennys-podcast-transcripts). Regenerable via scripts/import_lennys_repo.py
 # The 6 seed episodes stay tracked - tests/test_retrieval.py depends on ep01.
-data/transcripts/*.txt
-!data/transcripts/ep*.txt
+#data/transcripts/*.txt
+#!data/transcripts/ep*.txt
