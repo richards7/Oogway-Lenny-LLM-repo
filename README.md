@@ -68,8 +68,8 @@ Runs locally via **Ollama** (`llama3.1:8b` / `qwen2.5:7b`) with **zero cloud key
 | `POSTGRES_DB` | PostgreSQL Database Name | `lenny_growth` |
 | `POSTGRES_USER` | PostgreSQL User Name | `postgres` |
 | `POSTGRES_PASSWORD` | PostgreSQL User Password | `postgres` |
-| `DATABASE_URL` | Async SQLAlchemy PostgreSQL Connection URL | `postgresql+asyncpg://postgres:postgres@localhost:5432/lenny_growth` |
-| `SYNC_DATABASE_URL` | Sync psycopg Connection URL (for ingestion script) | `postgresql+psycopg://postgres:postgres@localhost:5432/lenny_growth` |
+| `DATABASE_URL` | Async SQLAlchemy PostgreSQL Connection URL | `postgresql+asyncpg://postgres:postgres@localhost:5433/lenny_growth` |
+| `SYNC_DATABASE_URL` | Sync psycopg Connection URL (for ingestion script) | `postgresql+psycopg://postgres:postgres@localhost:5433/lenny_growth` |
 | `LLM_PROVIDER` | Active LLM Provider (`ollama`, `anthropic`, `openai`) | `ollama` |
 | `OLLAMA_BASE_URL` | Local Ollama Service REST API Base URL | `http://localhost:11434` |
 | `OLLAMA_MODEL` | Primary Local Ollama Model | `llama3.1:8b` |
@@ -100,9 +100,9 @@ cp .env.example .env
 docker compose up -d
 ```
 This spins up:
-- `lenny_postgres`: PostgreSQL 16 with `pgvector` extension enabled on port `5432`.
-- `lenny_backend`: FastAPI app running on `http://localhost:8000` (auto-ingests seed transcripts on startup if DB is empty).
-- `lenny_frontend`: Vite React app served via Nginx on `http://localhost:3000`.
+- `lenny_postgres`: PostgreSQL 16 with `pgvector` extension enabled on port `5433`.
+- `lenny_backend`: FastAPI app running on `http://localhost:5001` (auto-ingests seed transcripts on startup if DB is empty).
+- `lenny_frontend`: Vite React app served via Nginx on `http://localhost:3001`.
 
 ---
 
@@ -118,8 +118,8 @@ This spins up:
 3. Ensure Ollama is running on `http://localhost:11434`.
 4. Verify backend health and active provider:
    ```bash
-   curl http://localhost:8000/health
-   curl http://localhost:8000/config
+   curl http://localhost:5001/health
+   curl http://localhost:5001/config
    ```
 
 ---
@@ -162,7 +162,7 @@ python -m pytest -v
 
 ### 2. Missing PostgreSQL Connection
 - **Symptom**: `GET /health` returns HTTP 503 `DATABASE_UNAVAILABLE`.
-- **Fix**: Check that PostgreSQL container is running (`docker compose ps`). Ensure port 5432 is not blocked by another local Postgres instance.
+- **Fix**: Check that PostgreSQL container is running (`docker compose ps`). Ensure port 5433 is not blocked by another local Postgres instance.
 
 ### 3. Missing Cloud Key Fallback Behavior
 - **Symptom**: User selects `anthropic` or `openai` in `.env` without providing `ANTHROPIC_API_KEY` or `OPENAI_API_KEY`.
@@ -176,3 +176,4 @@ python -m pytest -v
 
 ## 📄 License
 MIT License. Built for Forward-Deployment Engineering.
+

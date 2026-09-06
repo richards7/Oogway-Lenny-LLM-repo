@@ -8,31 +8,37 @@ services:
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
     ports:
-      - "${POSTGRES_PORT:-5432}:5432"
+      - "${POSTGRES_PORT:-5433}:5432"
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - ./postgres_data:/var/lib/postgresql/data
     healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-lenny_growth}"]
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
       interval: 5s
       timeout: 5s
-      retries: 5
+      retries: 15
 
   backend:
     build:
       context: .
       dockerfile: backend/Dockerfile
-
     container_name: lenny_backend
     restart: always
     environment:
       DATABASE_URL: postgresql+asyncpg://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-lenny_growth}
+      SYNC_DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-lenny_growth}
       LLM_PROVIDER: ${LLM_PROVIDER:-ollama}
       OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
-      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.1:8b}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2:3b}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
+      ANTHROPIC_MODEL: ${ANTHROPIC_MODEL:-claude-3-5-sonnet-20241022}
       OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+      OPENAI_MODEL: ${OPENAI_MODEL:-gpt-4o}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENROUTER_MODEL: ${OPENROUTER_MODEL:-google/gemma-4-31b-it:free}
+      GEMINI_API_KEY: ${GEMINI_API_KEY:-}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.6-flash}
     ports:
-      - "8000:8000"
+      - "5001:5001"
     depends_on:
       postgres:
         condition: service_healthy
@@ -46,9 +52,6 @@ services:
     container_name: lenny_frontend
     restart: always
     ports:
-      - "3000:80"
+      - "3001:80"
     depends_on:
       - backend
-
-volumes:
-  pgdata:

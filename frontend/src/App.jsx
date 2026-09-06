@@ -282,7 +282,7 @@ export default function App() {
       setMessages(prev => [...prev, {
         id: 'err-' + Date.now(),
         role: 'assistant',
-        content: `⚠️ **Backend Server Offline**: Unable to establish a session with backend on \`http://localhost:8000\`. Please make sure your backend server is running (\`.\\dev-backend.bat\` or \`docker compose up -d\`).`,
+        content: `⚠️ **Backend Server Offline**: Unable to establish a session with backend on \`http://localhost:5001\`. Please make sure your backend server is running (\`.\\dev-backend.bat\` or \`docker compose up -d\`).`,
         citations: [],
         model_provider: activeProvider
       }]);
@@ -365,7 +365,7 @@ export default function App() {
         }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <AlertCircle size={16} color="#DC2626" />
-            <span><strong>Backend Offline:</strong> Python backend is not running on <code>http://localhost:8000</code>. Run <code>.\dev-backend.bat</code> in your terminal.</span>
+            <span><strong>Backend Offline:</strong> Python backend is not running on <code>http://localhost:5001</code>. Run <code>.\dev-backend.bat</code> in your terminal.</span>
           </div>
           <button 
             className="glass-button" 
@@ -422,5 +422,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
