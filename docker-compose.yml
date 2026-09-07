@@ -20,7 +20,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: backend/Dockerfile
+      dockerfile: Dockerfile
     container_name: lenny_backend
     restart: always
     environment:
