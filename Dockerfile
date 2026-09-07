@@ -18,5 +18,5 @@ EXPOSE 5001
 
 ENV PYTHONPATH=/app
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "5001"]
+CMD sh -c "uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-5001}"
 
